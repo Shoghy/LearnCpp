@@ -1,0 +1,10 @@
+CompileFlags:
+   Compiler: clang++
+   Add:
+      - -pedantic-errors
+      - -Wall
+      - -Weffc++
+      - -Wextra
+      - -Wconversion
+      - -Wsign-conversion
+      - -Werror
