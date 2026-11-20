@@ -11,9 +11,10 @@ int getValueFromUser()
 
 int main()
 {
-	int num{getValueFromUser()};
+	int x{getValueFromUser()};
+	int y{getValueFromUser()};
 
-	std::cout << num << " doubled is: " << num * 2 << '\n';
+	std::cout << x << " + " << y << " = " << x + y << '\n';
 
 	return 0;
 }
